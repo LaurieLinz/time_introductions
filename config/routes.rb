@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
- get  'time' => 'time#time'
+ get  'time/now' => 'time#now'
 end
